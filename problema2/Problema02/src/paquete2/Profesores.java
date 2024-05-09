@@ -6,7 +6,7 @@ package paquete2;
 
 /**
  *
- * @author utpl
+ * @author kevin
  */
 public class Profesores {
 

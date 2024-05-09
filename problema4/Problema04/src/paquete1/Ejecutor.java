@@ -3,7 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package paquete1;
-import paquete2.Profesores;
+
+import paquete2.Cheques;
+
 /**
  *
  * @author kevin
@@ -15,13 +17,13 @@ public class Ejecutor {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Profesores profesor1 = new Profesores("Franco", "Aguilar", 1105749223,
-                950.50);
-        profesor1.establecerSueldoTotal();
-        Profesores profesor2 = new Profesores(1102317683, 1500);
-        profesor2.establecerSueldoTotal();
-        System.out.printf("%s", profesor1);
-        System.out.printf("%s", profesor2);
+        Cheques cheque1 = new Cheques("Kevin Robles", "Banco de Loja", 5000);
+        cheque1.establecerComision();
+        Cheques cheque2 = new Cheques("Eduardo Mejia", "Banco Pichincha");
+        cheque2.establecerComision();
+        System.out.printf("%s", cheque1);
+        System.out.println();
+        System.out.printf("%s", cheque2);
     }
 
 }
